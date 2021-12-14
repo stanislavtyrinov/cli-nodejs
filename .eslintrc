@@ -1,0 +1,35 @@
+{
+  "env": {
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": [
+    "airbnb-base",
+    "plugin:jest/recommended"
+  ],
+  "ignorePatterns": [
+    "node_modules"
+  ],
+  "plugins": [
+    "jest"
+  ],
+  "rules": {
+    "class-methods-use-this": "off",
+    "comma-dangle": "off",
+    "import/no-extraneous-dependencies": "off",
+    "max-len": [
+      "error",
+      {
+        "code": 160,
+        "ignoreRegExpLiterals": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreUrls": true
+      }
+    ],
+    "no-underscore-dangle": "off",
+    "no-use-before-define": "off",
+    "object-curly-newline": "off",
+    "no-console": "off"
+  }
+}

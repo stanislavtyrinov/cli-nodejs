@@ -1,0 +1,9 @@
+{
+  "episode_id": "id",
+  "episode_name": "name",
+  "episode_air_date": "air_date",
+  "episode_label": "episode",
+  "episode_characters": "characters",
+  "episode_url": "url",
+  "episode_created": "created"
+}

@@ -1,0 +1,14 @@
+{
+  "character_id": "id",
+  "character_name": "name",
+  "character_status": "status",
+  "character_species": "species",
+  "character_type": "type",
+  "character_gender": "gender",
+  "character_origin": "origin",
+  "character_location": "location",
+  "character_image": "image",
+  "character_episode": "episode",
+  "character_url": "url",
+  "character_created": "created"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cli/index.js",
+  "scripts": {
+    "start": "node src/cli/index.js sync --help",
+    "lint": "./node_modules/.bin/eslint .",
+    "lint-fix": "./node_modules/.bin/eslint --fix ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1046.0",
+    "axios": "^0.24.0",
+    "config": "^3.3.6",
+    "dotenv": "^10.0.0",
+    "lodash": "^4.17.21",
+    "yargs": "^17.3.0"
+  },
+  "eslintConfig": {
+    "extends": ".eslintrc"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^25.3.0",
+    "jest": "^27.4.5"
+  }
+}

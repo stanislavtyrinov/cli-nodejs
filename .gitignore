@@ -1,0 +1,16 @@
+# IDE files
+.code
+.idea
+.vscode
+
+# Mac files
+.DS_Store
+
+# Optional npm cache directory
+.npm
+
+# Logs
+*.log
+
+# Dependencies
+node_modules
